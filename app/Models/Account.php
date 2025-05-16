@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Account extends Model
 {
+    //defineixo les funciones
     protected $guarded = [];
 
     public function deposit($amount)
